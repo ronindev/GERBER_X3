@@ -8,6 +8,8 @@ env:
   QT_SUBDIR: "gcc_64"
   BOOST_VERSION: "1.84.0"
   BUILD_TYPE: "Release"
+  cc: "gcc"
+  cxx: "g++"
 
 jobs:
   build:
