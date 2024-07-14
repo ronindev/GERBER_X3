@@ -276,7 +276,7 @@ public:
 
             palette.setBrush(QPalette::Highlight, highlightColor);
 
-            palette.setBrush(QPalette::ToolTipBase, windowTextColor);
+            palette.setBrush(QPalette::ToolTipBase, baseColor);
             palette.setBrush(QPalette::Window, windowColor);
 
             palette.setBrush(QPalette::Disabled, QPalette::ButtonText, disabledColor);
