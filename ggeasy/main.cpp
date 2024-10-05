@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
         "\x1b[38;2;64;64;64m <- %{function} <- %{file} : %{line}\x1b[0m"));
 
     QApplication::setAttribute(Qt::AA_Use96Dpi);
-    qputenv("QT_ENABLE_HIGHDPI_SCALING", QByteArray("0"));
+    QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     //    Q_INIT_RESOURCE(resources);
 
