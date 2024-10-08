@@ -10,6 +10,7 @@
  ********************************************************************************/
 #pragma once
 #include <QDoubleSpinBox>
+#include "optional"
 
 class QJSEngine;
 
